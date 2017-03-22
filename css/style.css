@@ -50,10 +50,29 @@ h3 {
 	border-bottom: solid 10px orange;
 }
 
+/*pseudo classes*/
+
+a:link {
+	color: orange;
+}
+
+a:visited {
+	color: lightblue;
+}
+
+a:hover {
+	color: forestgreen;
+}
 
 
+a:active {
+	color: lightcoral;
+}
 
-
+a:focus {
+	color: white;
+	background-color: orange;
+}
 
 
 

@@ -3,6 +3,7 @@
 body {
 	color: #878787;
 	margin: 0;
+	font-size: 1em;
 }
 
 ul li {
@@ -12,7 +13,7 @@ ul li {
 }
 
 h1 {
-	font-size: 90px;
+	font-size: 5.625em; /* 90px divided by 16px  */
 	color: white;
 }
 
@@ -33,7 +34,7 @@ h3 {
 
 .title {
 	color: white;
-	font-size: 26px;
+	font-size: 1.625em; /* 26px divided by 16px  */
 }
 
 

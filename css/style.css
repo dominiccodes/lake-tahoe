@@ -12,6 +12,12 @@ body {
 	font-size: 26px;
 }
 
+
+.primary-content, 
+.secondary-content {
+	width: 60%;
+}
+
 ul li {
 	background-color: tomato;
 	color: white;

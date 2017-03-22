@@ -3,8 +3,13 @@
 body {
 	color: #878787;
 	margin: 0;
+/*	Font shorthand property that lets us write all the font properties in one value. font size and family must be defined. order important. can remove normal as it's the default */
+	font: normal 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*
 	font-size: 1em;
 	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.5;  best practice to use unitless numbers, can auto adjust to larger changes in font size 
+*/
 }
 
 ul li {

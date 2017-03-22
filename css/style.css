@@ -3,7 +3,7 @@ body {
 	margin: 0;
 }
 
-header {
+.main-header {
 	background-color: orange;
 }
 
@@ -22,8 +22,8 @@ h3 {
 }
 
 
-#primary-content {
-	border: 3px solid red;
+.primary-content {
+	text-align: center;
 }
 
 #main-footer {
@@ -33,7 +33,9 @@ h3 {
 }
 
 
-
+.secondary-content {
+	border-top: 2px solid lightgrey;
+}
 
 
 

@@ -1,21 +1,8 @@
+/*type selectors*/
+
 body {
 	color: #878787;
 	margin: 0;
-}
-
-.main-header {
-	background-color: orange;
-}
-
-.title {
-	color: white;
-	font-size: 26px;
-}
-
-
-.primary-content, 
-.secondary-content {
-	width: 60%;
 }
 
 ul li {
@@ -38,17 +25,30 @@ h3 {
 	color: #48525c;
 }
 
+/*class selectors*/
+
+.main-header {
+	background-color: orange;
+}
+
+.title {
+	color: white;
+	font-size: 26px;
+}
+
+
+.primary-content, 
+.secondary-content {
+	width: 60%;
+}
 
 .primary-content {
 	text-align: center;
 }
 
-
-
 .t-border {
 	border-top: 2px solid lightgrey;
 }
-
 
 #main-footer {
 	padding-top: 60px;

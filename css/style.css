@@ -7,7 +7,6 @@ body {
 }
 
 ul li {
-	background-color: tomato;
 	color: white;
 	margin-bottom: 5px;
 }
@@ -29,7 +28,7 @@ h3 {
 /*class selectors*/
 
 .main-header {
-	background-color: orange;
+	background-color: #ffa949;
 }
 
 .title {
@@ -54,14 +53,14 @@ h3 {
 #main-footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	border-bottom: solid 10px orange;
+	border-bottom: solid 10px #ffa949;
 }
 
 /*pseudo classes*/
 
 /*pseudo-class selector that targets default, unvisited links*/
 a:link {
-	color: orange;
+	color: #ffa949;
 }
 
 /*pseudo-class selector that targets all visited links*/
@@ -82,7 +81,7 @@ a:active {
 /*The :focus pseudo-class is only applied to interactive elements like links, buttons and form elements. The styles are applied as soon as the element receives focus:*/
 a:focus {
 	color: white;
-	background-color: orange;
+	background-color: #ffa949;
 }
 
 

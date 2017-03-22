@@ -52,23 +52,27 @@ h3 {
 
 /*pseudo classes*/
 
+/*pseudo-class selector that targets default, unvisited links*/
 a:link {
 	color: orange;
 }
 
+/*pseudo-class selector that targets all visited links*/
 a:visited {
 	color: lightblue;
 }
 
+/*pseudo-class selector that targets all links on hover*/
 a:hover {
 	color: forestgreen;
 }
 
-
+/*The :active pseudo-class gets applied when an element is in an active state:*/
 a:active {
 	color: lightcoral;
 }
 
+/*The :focus pseudo-class is only applied to interactive elements like links, buttons and form elements. The styles are applied as soon as the element receives focus:*/
 a:focus {
 	color: white;
 	background-color: orange;

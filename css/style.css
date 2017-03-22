@@ -13,7 +13,7 @@ ul li {
 
 h1 {
 	font-size: 5.625rem; /* 90px divided by 16px  */
-	color: white;
+	color: rgba(255, 255, 255, .5);
 }
 
 h2 {
@@ -60,12 +60,12 @@ h3 {
 
 /*pseudo-class selector that targets default, unvisited links*/
 a:link {
-	color: #ffa949;
+	color: rgb(255, 169, 73);
 }
 
 /*pseudo-class selector that targets all visited links*/
 a:visited {
-	color: lightblue;
+	color: rgba(255, 169, 73, .4); /* .4 is 40% */
 }
 
 /*pseudo-class selector that targets all links on hover*/
